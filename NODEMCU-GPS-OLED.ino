@@ -33,7 +33,7 @@ void setup()
   display.setTextSize(1);                               // Set OLED text size to small
   display.setTextColor(WHITE);                          // Set OLED color to White
   display.setCursor(0,0);                               // Set cursor to 0,0
-  display.println("GPS example");  
+  display.println("GPS Info");  
   display.println(TinyGPSPlus::libraryVersion());
   display.display();                                     // Update display
   delay(1500);                                          // Pause 1.5 seconds  
